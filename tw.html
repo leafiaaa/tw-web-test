@@ -1,0 +1,662 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!-- In your <head> -->
+    <link rel="stylesheet" href="/css/tokens.css" />
+    <link rel="stylesheet" href="/css/navbar.css" />
+    <link rel="stylesheet" href="/css/fonts.css" />
+    <link rel="stylesheet" href="/css/hero.css" />
+    <link rel="stylesheet" href="/css/text_sizes.css" />
+    <link rel="stylesheet" href="/css/features.css" />
+    <link rel="stylesheet" href="/css/cta.css" />
+    <link rel="stylesheet" href="/css/footer.css" />
+    <link rel="stylesheet" href="/css/demo-popup.css" />
+  </head>
+  <nav class="navbar">
+    <a href="/" class="navbar__logo">
+      <img src="../assets/images/xNinja_logo.png" alt="xNinja" />
+    </a>
+
+    <ul class="navbar__links">
+      <!-- <li><a href="/about.html" data-i18n="nav.about">About Us</a></li> -->
+      <!-- <li><a href="/news.html" data-i18n="nav.news">News</a></li> -->
+
+      <!-- Products: mega menu trigger -->
+      <li class="navbar__item navbar__has-mega">
+        <a
+          class="navbar__products-trigger"
+          aria-haspopup="true"
+          aria-expanded="false"
+          >Skills</a
+        >
+
+        <div class="mega" role="menu" aria-label="Products">
+          <span
+            class="mega__corner mega__corner--left"
+            aria-hidden="true"
+          ></span>
+          <span
+            class="mega__corner mega__corner--right"
+            aria-hidden="true"
+          ></span>
+
+          <h3 class="mega__title">xNinja 核心能力</h3>
+
+          <ul class="mega__list">
+            <li>
+              <a class="mega__link" href="/xNinja_bpm_tw.html" role="menuitem">
+                <span
+                  >xNinja.企業流程管理（BPM）</span
+                >
+                <span class="mega__chev" aria-hidden="true">&gt;</span>
+              </a>
+            </li>
+            <li>
+              <a class="mega__link" href="/xNinja_km_tw.html" role="menuitem">
+                <span>xNinja.知識管理（KM）</span>
+                <span class="mega__chev" aria-hidden="true">&gt;</span>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </li>
+
+      <!-- <li><a href="/pricing.html" data-i18n="nav.pricing">Pricing</a></li> -->
+      <li>
+        <a href="#" class="navbar__cta" data-demo-open
+          >預約產品展示</a
+        >
+      </li>
+    </ul>
+
+    <div class="navbar__lang">
+      <button
+        class="lang-toggle"
+        id="langToggle"
+        aria-haspopup="true"
+        aria-expanded="false"
+      >
+        <span id="langCurrent">TW</span>
+        <svg
+          class="lang-arrow"
+          width="10"
+          height="6"
+          viewBox="0 0 10 6"
+          fill="none"
+        >
+          <path
+            d="M1 1L5 5L9 1"
+            stroke="currentColor"
+            stroke-width="1.5"
+            stroke-linecap="round"
+          />
+        </svg>
+      </button>
+      <ul class="lang-dropdown" id="langDropdown" role="menu">
+        <li><button role="menuitem" data-lang="en">EN</button></li>
+        <li><button role="menuitem" data-lang="tw">TW</button></li>
+        <!-- <li><button role="menuitem" data-lang="th">TH</button></li>
+        <li><button role="menuitem" data-lang="idn">IDN</button></li> -->
+      </ul>
+    </div>
+
+    <!-- Hamburger (mobile) -->
+    <button class="navbar__hamburger" id="hamburger" aria-label="Open menu">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
+
+  <!-- Mobile drawer -->
+  <div class="navbar__drawer" id="navDrawer">
+    <ul>
+      <li><a href="/about.html">About Us</a></li>
+      <li><a href="/news.html">News</a></li>
+      <li>
+        <a href="/products.html">Products</a>
+        <ul class="drawer-sub">
+          <li>
+            <a href="/xNinja_bpm.html"
+              >xNinja. Business Process Management (BPM)</a
+            >
+          </li>
+          <li>
+            <a href="/xNinja_km.html"
+              >xNinja.Knowledge Management</a
+            >
+          </li>
+        </ul>
+      </li>
+      <li><a href="/pricing.html">Pricing</a></li>
+    </ul>
+    <div class="drawer-lang">
+      <button href="tw.html">EN</button>
+      <button href="tw.html">TW</button>
+      <button>TH</button>
+      <button >IDN</button>
+    </div>
+  </div>
+  <div class="navbar__overlay" id="navOverlay"></div>
+
+
+<section class="hero">
+  <div class="hero__inner">
+  
+<h2 class="hero__subhead">xNinja AI Workhub</h2>
+  <h1 class="hero__title text-display">
+	應你所需, 如影隨形
+    </h1>
+    <p class="hero__subtitle">
+<b>xNinja 是一款企業級 AI Agent 平台，</b>結合多項核心能力（Master Skills），包括：
+
+<b>xNinja.企業流程管理（Business Process Management)、AI OCR 光學字元辨識功能(Optical Character Recognition)、xNinja.知識管理（Knowledge Management)</b>
+ 以及更多持續擴充的智慧應用能力。</p><br>
+   <span class="hero__quote">
+      無論是協助完成工作任務、快速取得資訊，或優化企業流程，
+<b>xNinja 始終是您值得信賴的智慧工作夥伴。</b>
+    </sp> 
+
+    <div class="hero__cta-row">
+      <span class="hero__cta-line hero__cta-line--left" aria-hidden="true"></span>
+<a href="#" class="hero__cta" data-demo-open>預約產品展示</a>
+      <span class="hero__cta-line hero__cta-line--right" aria-hidden="true"></span>
+    </div>
+
+     <div class="hero__media">
+          <div class="skill_section__video" data-skill-video>
+            <video
+              class="skill_section__media"
+              muted
+              loop
+              playsinline
+              preload="none"
+              poster="assets/images/km-video-poster.jpg"
+            >
+              <source src="assets/video/xNinja-intro.mp4" type="video/webm" />
+              <source src="assets/video/xNinja-intro.mp4" type="video/mp4" />
+            </video>
+
+            <div class="skill_section__controls">
+              <div class="skill_section__controls-group">
+                <button
+                  type="button"
+                  class="skill_section__btn"
+                  data-skill-back
+                  aria-label="Back 10 seconds"
+                >
+                  <svg
+                    class="skill_section__icon"
+                    viewBox="0 0 24 24"
+                    aria-hidden="true"
+                  >
+                    <path
+                      d="M11 5v14L2 12zM20 5v14l-9-7z"
+                      fill="currentColor"
+                    />
+                  </svg>
+                </button>
+
+                <button
+                  type="button"
+                  class="skill_section__btn"
+                  data-skill-playpause
+                  data-playing="false"
+                  aria-label="Play"
+                >
+                  <svg
+                    class="skill_section__icon skill_section__icon--play"
+                    viewBox="0 0 24 24"
+                    aria-hidden="true"
+                  >
+                    <path d="M8 5v14l11-7z" fill="currentColor" />
+                  </svg>
+                  <svg
+                    class="skill_section__icon skill_section__icon--pause"
+                    viewBox="0 0 24 24"
+                    aria-hidden="true"
+                  >
+                    <path d="M7 5h3v14H7zM14 5h3v14h-3z" fill="currentColor" />
+                  </svg>
+                </button>
+
+                <button
+                  type="button"
+                  class="skill_section__btn"
+                  data-skill-forward
+                  aria-label="Forward 10 seconds"
+                >
+                  <svg
+                    class="skill_section__icon"
+                    viewBox="0 0 24 24"
+                    aria-hidden="true"
+                  >
+                    <path d="M13 5v14l9-7zM4 5v14l9-7z" fill="currentColor" />
+                  </svg>
+                </button>
+              </div>
+
+              <button
+                type="button"
+                class="skill_section__btn"
+                data-sound-toggle
+                aria-pressed="false"
+                aria-label="Turn on sound"
+              >
+                <svg
+                  class="skill_section__icon skill_section__icon--muted"
+                  viewBox="0 0 24 24"
+                  aria-hidden="true"
+                >
+                  <path d="M3 9v6h4l5 5V4L7 9H3z" fill="currentColor" />
+                  <path
+                    d="M16 8l5 8M21 8l-5 8"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    fill="none"
+                  />
+                </svg>
+                <svg
+                  class="skill_section__icon skill_section__icon--sound"
+                  viewBox="0 0 24 24"
+                  aria-hidden="true"
+                >
+                  <path d="M3 9v6h4l5 5V4L7 9H3z" fill="currentColor" />
+                  <path
+                    d="M16 9a4 4 0 0 1 0 6M18.5 6.5a8 8 0 0 1 0 11"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                  />
+                </svg>
+              </button>
+            </div>
+          </div>
+        </div>
+  </div>
+</section>
+
+<section class="skills">
+  <div class="skills__inner">
+    <div class="skills__intro"> <h2 class="skills__title">xNinja 核心能力</h2>
+    <span class="skills__lead text-body-lg">
+    為解決企業日常營運挑戰而生。xNinja 致力於改善數位轉型工具導入及應用上的問題，協助企業進一步提升營運效率。
+<br>透過 xNinja，企業可在各個轉型面向獲得完整支援，包含：
+資料治理與流程優化
+知識管理與共享
+商業智慧分析
+創新應用與 AI 導入 。
+全面打造面向未來的智慧企業。
+</div>
+   
+<!-- Skill stepper: one icon per Master Skill -->
+<!-- Skill stepper: one icon per Master Skill -->
+<div class="skills__steps" aria-label="xNinja Master Skills">
+  <!-- BPM — form icon -->
+  <button
+    class="skills__step skills__step--active"
+    type="button"
+    data-skill-key="skills.bpm.video"
+    aria-label="xNinja.Business Process Management"
+  >
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor"
+         stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+      <rect x="5" y="3" width="14" height="18" rx="2" />
+      <path d="M9 8h6M9 12h6M9 16h4" />
+    </svg>
+  </button>
+
+  <span class="skills__step-line" aria-hidden="true"></span>
+
+  <!-- KM — book icon -->
+  <button
+    class="skills__step"
+    type="button"
+    data-skill-key="skills.km.video"
+    aria-label="xNinja.Knowledge Management"
+  >
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor"
+         stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+      <path d="M5 4.5A1.5 1.5 0 0 1 6.5 3H19v15H6.5A1.5 1.5 0 0 0 5 19.5z" />
+      <path d="M5 19.5A1.5 1.5 0 0 1 6.5 18H19" />
+    </svg>
+  </button>
+</div>
+    <div class="skills__carousel">
+      <button class="skills__nav skills__nav--prev" type="button" aria-label="Previous skill">
+        <svg width="18" height="18" viewBox="0 0 24 24" aria-hidden="true">
+          <path d="M15 5l-7 7 7 7" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" />
+        </svg>
+      </button>
+
+      <div class="skills__viewport">
+        <div class="skills__track">
+
+          <!-- Card: BPM -->
+          <article class="skill-card skill-card--active" data-video-key="skills.bpm.video">
+            <h3 class="skill-card__title">xNinja.BPM 企業流程管理</h3>
+            <div class="skill-card__body">
+            <div class="skill_section__video" data-skill-video>
+  <video
+    class="skill_section__media"
+    muted
+    loop
+    playsinline
+    preload="none"
+    poster="assets/images/bpm-video-poster.jpg">
+    <source src="assets/video/bpm-demo.webm" type="video/webm">
+    <source src="assets/video/bpm-demo.mp4" type="video/mp4">
+  </video>
+
+  <div class="skill_section__controls">
+    <div class="skill_section__controls-group">
+      <button type="button" class="skill_section__btn" data-skill-back aria-label="Back 10 seconds">
+        <svg class="skill_section__icon" viewBox="0 0 24 24" aria-hidden="true">
+          <path d="M11 5v14L2 12zM20 5v14l-9-7z" fill="currentColor"/>
+        </svg>
+      </button>
+
+      <button type="button" class="skill_section__btn" data-skill-playpause data-playing="false" aria-label="Play">
+        <svg class="skill_section__icon skill_section__icon--play" viewBox="0 0 24 24" aria-hidden="true">
+          <path d="M8 5v14l11-7z" fill="currentColor"/>
+        </svg>
+        <svg class="skill_section__icon skill_section__icon--pause" viewBox="0 0 24 24" aria-hidden="true">
+          <path d="M7 5h3v14H7zM14 5h3v14h-3z" fill="currentColor"/>
+        </svg>
+      </button>
+
+      <button type="button" class="skill_section__btn" data-skill-forward aria-label="Forward 10 seconds">
+        <svg class="skill_section__icon" viewBox="0 0 24 24" aria-hidden="true">
+          <path d="M13 5v14l9-7zM4 5v14l9-7z" fill="currentColor"/>
+        </svg>
+      </button>
+    </div>
+
+    <button type="button" class="skill_section__btn" data-sound-toggle aria-pressed="false" aria-label="Turn on sound">
+      <svg class="skill_section__icon skill_section__icon--muted" viewBox="0 0 24 24" aria-hidden="true">
+        <path d="M3 9v6h4l5 5V4L7 9H3z" fill="currentColor"/>
+        <path d="M16 8l5 8M21 8l-5 8" stroke="currentColor" stroke-width="2" stroke-linecap="round" fill="none"/>
+      </svg>
+      <svg class="skill_section__icon skill_section__icon--sound" viewBox="0 0 24 24" aria-hidden="true">
+        <path d="M3 9v6h4l5 5V4L7 9H3z" fill="currentColor"/>
+        <path d="M16 9a4 4 0 0 1 0 6M18.5 6.5a8 8 0 0 1 0 11" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+      </svg>
+    </button>
+  </div>
+</div>
+              <div class="skill-card__text">
+                <p class="skill-card__desc text-body">
+                重新定義企業流程管理 。超越傳統 BPM 系統的限制，xNinja AI Agent 能夠：
+縮短BPM系統導入與維護週期，
+消除人工登打作業瓶頸，
+提升跨部門協作效率。
+將紙本流程全面轉型為智慧化數位工作流程，加速企業數位轉型。
+ </p>
+           
+                <a class="skill-card__more" href="/xNinja_bpm_tw.html">了解更多</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Card: KM -->
+          <article class="skill-card" data-video-key="skills.km.video">
+            <h3 class="skill-card__title">xNinja.知識管理</h3>
+            <div class="skill-card__body">
+          <div class="skill_section__video" data-skill-video>
+  <video
+    class="skill_section__media"
+    muted
+    loop
+    playsinline
+    preload="none"
+    poster="assets/images/km-video-poster.jpg">
+    <source src="assets/video/km-demo.webm" type="video/webm">
+    <source src="assets/video/km-demo.mp4" type="video/mp4">
+  </video>
+
+  <div class="skill_section__controls">
+    <div class="skill_section__controls-group">
+      <button type="button" class="skill_section__btn" data-skill-back aria-label="Back 10 seconds">
+        <svg class="skill_section__icon" viewBox="0 0 24 24" aria-hidden="true">
+          <path d="M11 5v14L2 12zM20 5v14l-9-7z" fill="currentColor"/>
+        </svg>
+      </button>
+
+      <button type="button" class="skill_section__btn" data-skill-playpause data-playing="false" aria-label="Play">
+        <svg class="skill_section__icon skill_section__icon--play" viewBox="0 0 24 24" aria-hidden="true">
+          <path d="M8 5v14l11-7z" fill="currentColor"/>
+        </svg>
+        <svg class="skill_section__icon skill_section__icon--pause" viewBox="0 0 24 24" aria-hidden="true">
+          <path d="M7 5h3v14H7zM14 5h3v14h-3z" fill="currentColor"/>
+        </svg>
+      </button>
+
+      <button type="button" class="skill_section__btn" data-skill-forward aria-label="Forward 10 seconds">
+        <svg class="skill_section__icon" viewBox="0 0 24 24" aria-hidden="true">
+          <path d="M13 5v14l9-7zM4 5v14l9-7z" fill="currentColor"/>
+        </svg>
+      </button>
+    </div>
+
+ 
+  </div>
+</div>
+              <div class="skill-card__text">
+                <p class="skill-card__desc text-body">
+                釋放企業知識價值
+透過 xNinja AI Agent，企業能夠更有效地運用組織知識資產。
+即時完成：
+知識文章生成，
+知識搜尋，
+智慧重點摘要，
+企業流程圖。
+讓企業知識得以快速被找出、應用與傳承。</p>
+                <a class="skill-card__more" href="/xNinja_km_tw.html">了解更多</a>
+              </div>
+            </div>
+          </article>
+
+        </div>
+      </div>
+
+      <button class="skills__nav skills__nav--next" type="button" aria-label="Next skill">
+        <svg width="18" height="18" viewBox="0 0 24 24" aria-hidden="true">
+          <path d="M9 5l7 7-7 7" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" />
+        </svg>
+      </button>
+    </div>
+  </div>
+</section>
+
+<section class="challenge">
+  <div class="challenge__inner">
+    <div class="challenge__header">
+    <h2 class="skills__title reveal reveal--up">
+      xNinja 協助企業解決的挑戰<br>
+    </h2>
+      <span class="skills__subtitle">化繁為簡，讓您更聰明的工作</span>
+      </div>
+    <!-- Row 1: text left, image right -->
+    <div class="challenge__row">
+      <div class="challenge__content reveal reveal--left">
+        <h3 class="challenge__subtitle">
+          快速推動企業數位化
+        </h3>
+        <ul class="challenge__list">
+          <li class="challenge__item">
+            <svg class="challenge__check" viewBox="0 0 20 20" aria-hidden="true">
+              <circle cx="10" cy="10" r="10" />
+              <path d="M5.8 10.3l2.7 2.7 5.7-6" />
+            </svg>
+            <span>消除冗長的系統導入週期</span>
+          </li>
+          <li class="challenge__item text-body">
+            <svg class="challenge__check" viewBox="0 0 20 20" aria-hidden="true">
+              <circle cx="10" cy="10" r="10" />
+              <path d="M5.8 10.3l2.7 2.7 5.7-6" />
+            </svg>
+            <span>打破語言與跨國溝通障礙</span>
+          </li>
+          <li class="challenge__item text-body">
+            <svg class="challenge__check" viewBox="0 0 20 20" aria-hidden="true">
+              <circle cx="10" cy="10" r="10" />
+              <path d="M5.8 10.3l2.7 2.7 5.7-6" />
+            </svg>
+            <span>建立全企業一致性的表單與流程標準</span>
+          </li>
+          <li class="challenge__item text-body">
+            <svg class="challenge__check" viewBox="0 0 20 20" aria-hidden="true">
+              <circle cx="10" cy="10" r="10" />
+              <path d="M5.8 10.3l2.7 2.7 5.7-6" />
+            </svg>
+            <span>加速資料蒐集與處理效率</span>
+          </li>
+        </ul>
+      </div>
+
+      <div class="challenge__media reveal reveal--right" role="img"
+           aria-label="Rapid enterprise digitalization illustration">
+          <img src="/assets/images/bpm_illustration.png">
+          </div>
+    </div>
+
+    <!-- Row 2: image left, text right -->
+    <div class="challenge__row challenge__row--reverse">
+      <div class="challenge__content reveal reveal--right">
+        <h3 class="challenge__subtitle">
+          提升組織生產力
+        </h3>
+        <ul class="challenge__list">
+          <li class="challenge__item text-body">
+            <svg class="challenge__check" viewBox="0 0 20 20" aria-hidden="true">
+              <circle cx="10" cy="10" r="10" />
+              <path d="M5.8 10.3l2.7 2.7 5.7-6" />
+            </svg>
+            <span>輕鬆將企業知識與文件集中管理</span>
+          </li>
+          <li class="challenge__item text-body">
+            <svg class="challenge__check" viewBox="0 0 20 20" aria-hidden="true">
+              <circle cx="10" cy="10" r="10" />
+              <path d="M5.8 10.3l2.7 2.7 5.7-6" />
+            </svg>
+            <span>快速取得關鍵資訊，讓員工專注於高價值工作</span>
+          </li>
+          <li class="challenge__item text-body">
+            <svg class="challenge__check" viewBox="0 0 20 20" aria-hidden="true">
+              <circle cx="10" cy="10" r="10" />
+              <path d="M5.8 10.3l2.7 2.7 5.7-6" />
+            </svg>
+            <span>將複雜文件轉換為精簡且可執行的摘要內容</span>
+          </li>
+          <li class="challenge__item text-body">
+            <svg class="challenge__check" viewBox="0 0 20 20" aria-hidden="true">
+              <circle cx="10" cy="10" r="10" />
+              <path d="M5.8 10.3l2.7 2.7 5.7-6" />
+            </svg>
+            <span>透過流程圖提高理解效率與執行品質</span>
+          </li>
+        </ul>
+      </div>
+
+      <div class="challenge__media reveal reveal--left" role="img"
+           aria-label="Accelerated workforce productivity illustration">
+          <img src="/assets/images/km_illustration.png"></div>
+    </div>
+  </div>
+</section>
+
+
+<section class="cta">
+  <div class="cta__panel">
+    <div class="cta__grid">
+      <!-- Left: intro -->
+      <div class="cta__intro">
+        <h2 class="cta__title">體驗 xNinja 的智慧工作方式</h2>
+        <p class="cta__lead text-body-lg">立即聯繫 百加資通團隊，安排進一步展示，親身體驗 xNinja 如何協助企業打造更高效、更智慧的辦公模式。</p>
+        <a class="cta__button" href="#" data-demo-open>
+          <span>預約產品展示</span>
+          <span aria-hidden="true">→</span>
+        </a>
+      </div>
+
+      <!-- Right: contact cards -->
+      <div class="cta__cards">
+        <div class="cta__card">
+          <span class="text-label cta__label">Customer Service</span>
+          <p class="cta__name">Hundred Plus Team</p>
+          <a class="cta__email" href="mailto:service@hundredplus.com">
+            <svg class="cta__icon" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+              <path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/>
+            </svg>
+            service@hundredplus.com
+          </a>
+          <a class="cta__phone" href="tel:+886223578866">
+            <svg class="cta__icon" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+              <path d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"/>
+            </svg>
+            +886 2-2357-8866
+          </a>
+        </div>
+
+        <!-- <div class="cta__card">
+          <span class="text-label cta__label">聯絡資訊</span>
+          <div class="cta__contact">
+            <p class="cta__name">Oscar Shan</p>
+            <a class="cta__email" href="mailto:reyner@hundredplus.com">
+              <svg class="cta__icon" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                <path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/>
+              </svg>
+              oscar.shan@hundredplus.com
+            </a>
+            <a class="cta__phone" href="tel:+886223578866,100">
+              <svg class="cta__icon" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                <path d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"/>
+              </svg>
+              +886 2-2357-8866 #108
+            </a>
+          </div>
+          <div class="cta__contact">
+            <p class="cta__name">Evelyn Tang</p>
+            <a class="cta__email" href="mailto:new.han@hundredplus.com">
+              <svg class="cta__icon" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                <path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/>
+              </svg>
+              evelyn.tang@hundredplus.com
+            </a>
+            <a class="cta__phone" href="tel:+886223578866,106">
+              <svg class="cta__icon" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                <path d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"/>
+              </svg>
+              +886 2-2357-8866 #105
+            </a>
+          </div>
+        </div> -->
+
+        <div class="cta__card">
+          <span class="text-label cta__label">
+            <span>Location</span>
+          </span>
+          <p class="cta__name">Hundred Plus Co., Ltd · Taiwan</p>
+          <a class="cta__email cta__maplink"
+             href="https://maps.google.com/?q=Hundred+Plus+Co+Ltd+Taiwan"
+             target="_blank" rel="noopener">
+            <span>Click to open in Google Maps</span>
+            <span aria-hidden="true">→</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<div id="demo-modal-placeholder"></div> 
+<div id="footer-placeholder"></div>
+<script src="/js/navbar.js"></script>
+<script src="/js/features.js"></script>
+<script src="/js/homepage.js"></script>
+<script src="/js/demo-popup.js"></script>
+<script src="js/skill-video.js"></script>
+</body>
+</html>

@@ -1,0 +1,47 @@
+/* ===== Text Sizes (extracted from hero.css & hero_tw.css) ===== */
+
+.hero__subtitle {
+  font-size: var(--scale-base);
+  font-weight: var(--weight-2xl);
+}
+
+.hero__subhead {
+  font-size: var(--scale-xl);
+}
+
+.hero__quote {
+  font-weight: var(--weight-xl);
+  font-size: var(--scale-base);
+}
+
+.hero__cta {
+  font-size: var(--scale-base);
+}
+
+.skills__title {
+  font-size: var(--scale-3xl);
+}
+
+.skills__subtitle {
+  font-weight: var(--weight-xl);
+  font-size: var(--scale-xl);
+}
+
+.skill-card__title {
+  font-size: var(--scale-lg);
+}
+
+.skill-card__more {
+  font-size: var(--scale-xs);
+}
+
+.challenge__title {
+  font-size: var(--scale-xl);
+}
+
+.challenge__subtitle {
+  font-size: var(--scale-xl);
+}
+.challenge__item {
+  font-size: var(--scale-base);
+}

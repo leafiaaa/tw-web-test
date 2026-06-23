@@ -1,0 +1,127 @@
+<div id="navbar-placeholder">
+  <nav class="navbar">
+    <a href="/tw.html" class="navbar__logo">
+      <img src="../assets/images/xNinja_logo.png" alt="xNinja" />
+    </a>
+
+    <ul class="navbar__links">
+      <!-- <li><a href="/about.html" data-i18n="nav.about">About Us</a></li> -->
+      <!-- <li><a href="/news.html" data-i18n="nav.news">News</a></li> -->
+
+      <!-- Products: mega menu trigger -->
+      <li class="navbar__item navbar__has-mega">
+        <a
+          class="navbar__products-trigger"
+          data-i18n="nav.products"
+          aria-haspopup="true"
+          aria-expanded="false"
+          >Skills</a
+        >
+
+        <div class="mega" role="menu" aria-label="Products">
+          <span
+            class="mega__corner mega__corner--left"
+            aria-hidden="true"
+          ></span>
+          <span
+            class="mega__corner mega__corner--right"
+            aria-hidden="true"
+          ></span>
+
+          <h3 class="mega__title" data-i18n="nav.mega.title">xNinja Skills</h3>
+
+          <ul class="mega__list">
+            <li>
+              <a class="mega__link" href="/xNinja_bpm_tw.html" role="menuitem">
+                <span data-i18n="nav.mega.bpm"
+                  >xNinja. Business Process Management (BPM)</span
+                >
+                <span class="mega__chev" aria-hidden="true">&gt;</span>
+              </a>
+            </li>
+            <li>
+              <a class="mega__link" href="/xNinja_km_tw.html" role="menuitem">
+                <span data-i18n="nav.mega.km">xNinja.Knowledge Management</span>
+                <span class="mega__chev" aria-hidden="true">&gt;</span>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </li>
+
+      <!-- <li><a href="/pricing.html" data-i18n="nav.pricing">Pricing</a></li> -->
+      <li>
+        <a href="#" class="navbar__cta" data-demo-open data-i18n="nav.cta"
+          >Book a Demo</a
+        >
+      </li>
+    </ul>
+
+    <div class="navbar__lang">
+      <button
+        class="lang-toggle"
+        id="langToggle"
+        aria-haspopup="true"
+        aria-expanded="false"
+      >
+        <span id="langCurrent">EN</span>
+        <svg
+          class="lang-arrow"
+          width="10"
+          height="6"
+          viewBox="0 0 10 6"
+          fill="none"
+        >
+          <path
+            d="M1 1L5 5L9 1"
+            stroke="currentColor"
+            stroke-width="1.5"
+            stroke-linecap="round"
+          />
+        </svg>
+      </button>
+      <ul class="lang-dropdown" id="langDropdown" role="menu">
+        <li><button role="menuitem" data-lang="en">EN</button></li>
+        <li><button role="menuitem" data-lang="tw">TW</button></li>
+        <!-- <li><button role="menuitem" data-lang="th">TH</button></li>
+        <li><button role="menuitem" data-lang="idn">IDN</button></li> -->
+      </ul>
+    </div>
+
+    <!-- Hamburger (mobile) -->
+    <button class="navbar__hamburger" id="hamburger" aria-label="Open menu">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
+
+  <!-- Mobile drawer -->
+  <div class="navbar__drawer" id="navDrawer">
+    <ul>
+      <li><a href="/about.html" data-i18n="nav.about">About Us</a></li>
+      <li><a href="/news.html" data-i18n="nav.news">News</a></li>
+      <li>
+        <a href="/products.html" data-i18n="nav.products">Products</a>
+        <ul class="drawer-sub">
+          <li>
+            <a href="/xNinja_bpm.html" data-i18n="nav.mega.bpm"
+              >xNinja. Business Process Management (BPM)</a
+            >
+          </li>
+          <li>
+            <a href="/xNinja_km.html" data-i18n="nav.mega.km"
+              >xNinja.Knowledge Management</a
+            >
+          </li>
+        </ul>
+      </li>
+      <li><a href="/pricing.html" data-i18n="nav.pricing">Pricing</a></li>
+    </ul>
+    <div class="drawer-lang">
+      <button data-lang="en">EN</button>
+      <button data-lang="tw">TW</button>
+      <button data-lang="th">TH</button>
+      <button data-lang="idn">IDN</button>
+    </div>
+  </div>
+  <div class="navbar__overlay" id="navOverlay"></div>
+</div>
