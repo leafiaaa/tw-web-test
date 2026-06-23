@@ -2,7 +2,11 @@
    Design Tokens
    Project typography system — EN / ZH / TH
    ========================================================================== */
-
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
 :root {
   /* --------------------------------------------------------------------------
      FONT STACKS
