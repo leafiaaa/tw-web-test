@@ -136,8 +136,8 @@
   display:block;
  margin: 0 0 var(--space-4);
   text-align: start;
-  font-family: var(--font-mono), var(--font-tw), var(--font-th), sans-serif;
-  font-weight: var(--weight-medium);
+  font-family: var(--font-en), var(--font-tw), sans-serif;
+  font-weight: var(--weight-xl);
   color: var(--color-ink);
 }
 
