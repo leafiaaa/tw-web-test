@@ -218,13 +218,13 @@
   background: var(--color-blue-muted);
 }
 
-.navbar__overlay {
+/* .navbar__overlay {
   display: none;
   position: fixed;
   inset: 0;
   background: rgba(32, 28, 29, 0.4);
   z-index: var(--z-overlay);
-}
+} */
 
 .navbar__overlay.is-open {
   display: block;
