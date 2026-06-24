@@ -230,8 +230,9 @@
 }
 .uc-feature__arrow{
   display:flex;
-  flex-direction: column;
+  flex-direction: row;
   gap:10px;
+  align-items:center;
 }
 
 .uc-feature__list {
