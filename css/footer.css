@@ -64,8 +64,8 @@
 
 .footer__heading {
   margin: 0 0 var(--space-4);
-  font-family: var(--font-mono), var(--font-tw), var(--font-th), sans-serif;
-  font-weight: var(--weight-mono-medium);
+  font-family: var(--font-en), var(--font-tw), var(--font-th), sans-serif;
+  font-weight: var(--weight-semibold);
   font-size: var(--scale-sm);
   color: var(--color-ink);
 }
@@ -178,5 +178,5 @@
 }
 .footer-address{
   font-size: var(--scale-sm);
-  color: var(--color-blue-muted);
+  color: var(--color-blue);
 }
