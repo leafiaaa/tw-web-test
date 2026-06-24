@@ -228,6 +228,11 @@
   opacity: 1;
   margin-top: var(--space-2);
 }
+.uc-feature__arrow{
+  display:flex;
+  flex-direction: column;
+  gap:10px;
+}
 
 .uc-feature__list {
   list-style: none;
