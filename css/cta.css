@@ -24,7 +24,7 @@
   margin: 0 0 var(--space-5);
   font-family: var(--font-mono), var(--font-tw), var(--font-th), sans-serif;
   font-weight: var(--weight-mono-medium);
-  font-size: 39px;
+  font-size: 36px;
   line-height: var(--lh-en-heading);
   color: var(--color-surface);
 }
