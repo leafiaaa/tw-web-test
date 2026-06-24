@@ -137,9 +137,9 @@
  margin: 0 0 var(--space-4);
   text-align: start;
   font-family: var(--font-en), var(--font-tw), sans-serif;
-  font-weight: var(--weight-xl);
+  font-weight: var(--weight-2xl);
   color: var(--color-ink);
-  font-size:var(--scale-xl);
+  font-size:var(--scale-2xl);
 }
 
 /* Content grid */
