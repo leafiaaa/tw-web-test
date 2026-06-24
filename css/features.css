@@ -341,3 +341,10 @@
     transition: none;
   }
 }
+.uc-feature__arrow svg {
+  transition: transform var(--transition-base);
+}
+
+.uc-feature.is-open .uc-feature__arrow svg {
+  transform: rotate(180deg);
+}
