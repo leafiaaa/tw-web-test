@@ -23,7 +23,7 @@
   gap: clamp(24px, 4vw, 48px);
 }
 
-.footer__logo img {
+.footer__logo svg {
   height: 120px;
   width: auto;
 }

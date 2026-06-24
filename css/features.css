@@ -133,16 +133,12 @@
 }
 
 .usecase__title {
-  display: inline-block;
-  margin-bottom: var(--space-10);
+  display:block;
+ margin: 0 0 var(--space-4);
+  text-align: start;
   font-family: var(--font-mono), var(--font-tw), var(--font-th), sans-serif;
-  font-size: var(--scale-lg);
-  font-weight: var(--weight-mono-medium);
-  letter-spacing: 0.05em;
-  text-transform: uppercase;
-  color: var(--color-surface);
-  background: var(--color-blue-active);
-  padding: var(--space-3) var(--space-5);
+  font-weight: var(--weight-medium);
+  color: var(--color-ink);
 }
 
 /* Content grid */

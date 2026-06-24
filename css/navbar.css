@@ -25,9 +25,9 @@
   margin-right: auto;
 }
 
-.navbar__logo img {
+.navbar__logo svg {
   height: 90px;
-  width: auto;
+  width: 90px;
 }
 
 /* Nav links — centered */
