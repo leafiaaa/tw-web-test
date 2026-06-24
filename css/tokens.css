@@ -17,8 +17,7 @@
 
   --font-en:   "Montserrat", sans-serif;
   --font-mono: "Montserrat",  sans-serif;
-  --font-tw:   "ChironGoRoundTC", "Noto Sans TC", sans-serif;
-  --font-th:   "Noto Sans Thai", sans-serif;
+  --font-tw:   "Montserrat","ChironGoRoundTC", "Noto Sans TC", sans-serif;
 
   /* --------------------------------------------------------------------------
      TYPE SCALE  (fluid via clamp — min @ ~375px / max @ ~1440px)
