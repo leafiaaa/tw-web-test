@@ -178,5 +178,5 @@
 }
 .footer-address{
   font-size: var(--scale-sm);
-  color: var(--color-blue);
+  color:var(--color-ink);
 }
